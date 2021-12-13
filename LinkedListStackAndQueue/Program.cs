@@ -10,11 +10,15 @@ namespace LinkedListStackAndQueue
         {
             Console.WriteLine("Hello World !");
 
-            LinkedListStack LinkedListStack = new LinkedListStack(); 
-            LinkedListStack.Push(70);
-            LinkedListStack.Push(30);
-            LinkedListStack.Push(56);
-            LinkedListStack.Display();
+            LinkedListStack linkedListStack = new LinkedListStack();
+            linkedListStack.Push(70);
+            linkedListStack.Push(30);
+            linkedListStack.Push(56);
+            linkedListStack.Display();
+            linkedListStack.peek();
+            linkedListStack.pop();
+            linkedListStack.IsEmpty();
+            linkedListStack.Display();
         }
     
     }
