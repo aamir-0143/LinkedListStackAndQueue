@@ -15,7 +15,14 @@ namespace LinkedListStackAndQueue
             linkedListStack.Push(30);
             linkedListStack.Push(56);
             linkedListStack.Display();
+<<<<<<< HEAD
 
+=======
+            linkedListStack.peek();
+            linkedListStack.pop();
+            linkedListStack.IsEmpty();
+            linkedListStack.Display();
+>>>>>>> UC2_PeakPop
         }
     
     }
