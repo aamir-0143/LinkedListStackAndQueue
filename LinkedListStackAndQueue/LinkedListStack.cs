@@ -37,12 +37,6 @@ namespace LinkedListStackAndQueue
                 Console.Write(temp.data + " ");
                 temp = temp.next;
             }
-<<<<<<< HEAD
-        }
-    }
-}
-
-=======
         }
         internal void peek()
         {
@@ -63,7 +57,7 @@ namespace LinkedListStackAndQueue
             Console.WriteLine("value popped is {0}", this.top.data);
             this.top = this.top.next;
         }
-        internal void IsEmpty() 
+        internal void IsEmpty()
         {
             while (this.top != null)
             {
@@ -74,4 +68,3 @@ namespace LinkedListStackAndQueue
     }
 }
  
->>>>>>> UC2_PeakPop
