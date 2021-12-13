@@ -46,5 +46,17 @@ namespace LinkedListStackAndQueue
                 temp = temp.next;
             }
         }
+        internal void Dequeue()
+        {
+            if (this.head == null)
+            {
+                Console.WriteLine("queue is empty,Deletion is not possible");
+                return;
+            }
+
+            head = head.next;
+
+        }
+
     }
 }
