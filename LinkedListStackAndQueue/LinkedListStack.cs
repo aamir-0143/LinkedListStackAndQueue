@@ -13,25 +13,31 @@ namespace LinkedListStackAndQueue
         {
             this.top = null;
         }
-        internal void Push(int value)
+        internal void Push(int Value)
         {
-            Node node = new Node(value);
-            if(this.top == null) 
+            Node node = new Node(Value);
+            if (this.top == null)
+            {
+                node.next = null;
+            }
+            else
             {
                 node.next = this.top;
+
             }
             this.top = node;
-            Console.WriteLine("{0} Pushed to stack", value);
+            Console.WriteLine("{0} pushed to stack", Value);
+
         }
         internal void Display()
         {
             Node temp = this.top;
-            while(temp != null) 
+            while (temp != null)
             {
-                Console.WriteLine(temp.data + "  ");
+                Console.Write(temp.data + " ");
                 temp = temp.next;
             }
-            
         }
     }
 }
+
